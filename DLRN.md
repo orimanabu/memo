@@ -103,6 +103,10 @@ specに対する変更もGerritでレビューしてgitで管理。リベース�
 <a name="footnote5">5</a>: OpenStackのCI/CDプラットフォーム。Gerrit、Jenkins、Zuul等を使用します。https://blogs.rdoproject.org/7276/software-factory-enters-beta-and-is-released-as-an-open-source-project<br/>
 <a name="footnote6">6</a>: https://www.redhat.com/archives/rdo-list/2016-March/msg00008.html<br/>
 
+# DLRNでビルドしたパッケージのありか
+
+https://trunk.rdoproject.org/ からupstreamの各コミットに対応したRDO一式のリポジトリに飛べます。
+
 # DLRNのがんばり
 
 Newtonリリース時のDLRNの頑張り:

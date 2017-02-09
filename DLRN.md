@@ -90,7 +90,7 @@ RPMパッケージをビルドしてリポジトリに配置するツール。�
 
 DLRNは、RDOのパッケージをビルドし、テストするための仕組みです。upstream masterのコミットごとにRDOの全パッケージをビルドし、テストし、テストが通ったらそのコミットに対応するリポジトリを作成します。
 
-前述のrdopkgというRDO用dist-gitのフロントエンドツールは、KojiやSoftware Factory[1]、DLRNと連携します。
+前述のrdopkgというRDO用dist-gitのフロントエンドツールは、KojiやSoftware Factory<sup>[5] (#footnote5)</sup>、DLRNと連携します。
 
 ワークフローは下図(https://www.rdoproject.org/documentation/rdo-packaging/ より拝借)のようになります。
 
@@ -98,10 +98,10 @@ DLRNは、RDOのパッケージをビルドし、テストするための仕組�
 
 specに対する変更もGerritでレビューしてgitで管理。リベースも楽ちん。
 
-ところで、DLRNは元々はDeloreanという名前でした[2]。が商標問題とかがあって、最終的にDLRNという名前になりました。
+ところで、DLRNは元々はDeloreanという名前でした<sup>[6] (#footnote6)</sup>。が商標問題とかがあって、最終的にDLRNという名前になりました。
 
-<a name="footnote1">1</a>: OpenStackのCI/CDプラットフォーム。Gerrit、Jenkins、Zuul等を使用します。https://blogs.rdoproject.org/7276/software-factory-enters-beta-and-is-released-as-an-open-source-project<br/>
-<a name="footnote1">1</a>: https://www.redhat.com/archives/rdo-list/2016-March/msg00008.html<br/>
+<a name="footnote5">5</a>: OpenStackのCI/CDプラットフォーム。Gerrit、Jenkins、Zuul等を使用します。https://blogs.rdoproject.org/7276/software-factory-enters-beta-and-is-released-as-an-open-source-project<br/>
+<a name="footnote6">6</a>: https://www.redhat.com/archives/rdo-list/2016-March/msg00008.html<br/>
 
 # DLRNのがんばり
 

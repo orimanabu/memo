@@ -114,5 +114,5 @@ Newtonリリース時のDLRNの頑張り:
 
 # 参考文献
 
-- Delorean: OpenStack packages from the future: [xxx] (https://blogs.rdoproject.org/7834/delorean-openstack-packages-from-the-future)
-- Fosdem'17: RDO's continuous packaging platform - How to continuously package OpenStack (or other things) for CentOS [yyy] (https://fosdem.org/2017/schedule/event/rdo_continuous_packaging_platform/)
+- RDO blog: [Delorean: OpenStack packages from the future] (https://blogs.rdoproject.org/7834/delorean-openstack-packages-from-the-future)
+- Fosdem'17: [RDO's continuous packaging platform - How to continuously package OpenStack (or other things) for CentOS] (https://fosdem.org/2017/schedule/event/rdo_continuous_packaging_platform/)

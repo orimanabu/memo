@@ -2,17 +2,21 @@
 
 # 前置き (もしくは用語集)
 
+## OpenStack
+
+- オープンソースのクラウド基盤ソフトウェア
+
 ## RDO
 
-OpenStackのディストリビューション
+- OpenStackのディストリビューション
 
-250以上のrpmパッケージ
+- 250以上のrpmパッケージ
 
 ## RPMパッケージ
 
 - ソース
 
-upstreamのソースコード
+  - upstreamのソースコード
 
 - スペック
 
@@ -41,4 +45,35 @@ RDOの場合、rdopkg<sup>[4] (#footnote4)</sup>がdist-gitのフロントエン
 <a name="footnote2">2</a>: https://fedoraproject.org/wiki/Package_maintenance_guide<br/>
 <a name="footnote3">3</a>: https://fedoraproject.org/w/uploads/1/1c/Fedpkg-presentation.pdf<br/>
 <a name="footnote4">4</a>: https://www.rdoproject.org/documentation/rdo-packaging/<br/>
+
+## RDOは頑張っているのです
+
+### OpenStackの開発規模
+
+- 6ヶ月ごとのメジャーバージョンアップ
+
+- 例えばNewton(2017/10 GA)の場合...
+
+  - 2700人以上のコントリビューター
+
+  - 600以上のプロジェクト
+
+  - 43000以上のコミット
+
+    - 平均すると一日あたり240コミット
+
+  - Novaだけでも17000以上のコミット、一日平均10コミット
+
+  - GA前1ヶ月は一日平均280コミット
+
+### 難しい点
+
+- upsteramの更新に合わせて、全パッケージの整合性が取れるようにspecも更新し続ける必要がある
+
+- パッケージ間に強い依存関係がある
+
+  - 特にコアパッケージが更新された場合、全てのパッケージを含めて互換性のテストが必要になる
+
+- テスト環境は数多くのテストを並列にさばく必要がある
+
 

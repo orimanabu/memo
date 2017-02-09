@@ -118,5 +118,6 @@ Newtonリリース時のDLRNの頑張り:
 
 # 参考文献
 
+- [DLRN] (https://github.com/openstack-packages/DLRN)
 - RDO blog: [Delorean: OpenStack packages from the future] (https://blogs.rdoproject.org/7834/delorean-openstack-packages-from-the-future)
 - Fosdem'17: [RDO's continuous packaging platform - How to continuously package OpenStack (or other things) for CentOS] (https://fosdem.org/2017/schedule/event/rdo_continuous_packaging_platform/)

@@ -34,11 +34,8 @@ dist-git<sup>[1] (#footnote2)</sup>とは、RPMパッケージ開発用のgitベ
 
 RDOの場合、rdopkg<sup>[4] (#footnote4)</sup>がdist-gitのフロントエンドツールとなります。
 
-<a name="footnote1">1</a>: https://github.com/release-engineering/dist-git
-
-<a name="footnote2">2</a>: https://fedoraproject.org/wiki/Package_maintenance_guide
-
-<a name="footnote3">3</a>: https://fedoraproject.org/w/uploads/1/1c/Fedpkg-presentation.pdf
-
-<a name="footnote4">4</a>: https://www.rdoproject.org/documentation/rdo-packaging/
+<a name="footnote1">1</a>: https://github.com/release-engineering/dist-git<br/>
+<a name="footnote2">2</a>: https://fedoraproject.org/wiki/Package_maintenance_guide<br/>
+<a name="footnote3">3</a>: https://fedoraproject.org/w/uploads/1/1c/Fedpkg-presentation.pdf<br/>
+<a name="footnote4">4</a>: https://www.rdoproject.org/documentation/rdo-packaging/<br/>
 

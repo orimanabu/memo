@@ -1,12 +1,14 @@
 # DLRN
 
-# RDO
+# 前置き (もしくは用語集)
+
+## RDO
 
 OpenStackのディストリビューション
 
 250以上のrpmパッケージ
 
-# RPMパッケージ
+## RPMパッケージ
 
 - ソース
 
@@ -19,7 +21,7 @@ upstreamのソースコード
   - 依存関係
   - パッチ
 
-# dist-git
+## dist-git
 
 dist-git<sup>[1] (#footnote2)</sup>とは、RPMパッケージ開発用のgitベースのリポジトリです。主に3つのコンポーネントから構成されています。
 
